@@ -1,7 +1,9 @@
-[
+export const bank_app_contract = "0x24257C748c7C0497DDd835F1426F6b79FDc4B335"
+
+export const bank_app_abi = [
 	{
 		"inputs": [],
-		"name": "createAcc",
+		"name": "createDoof",
 		"outputs": [
 			{
 				"internalType": "bool",
@@ -14,7 +16,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "deposit",
+		"name": "earn",
 		"outputs": [],
 		"stateMutability": "payable",
 		"type": "function"
@@ -32,7 +34,7 @@
 				"type": "uint256"
 			}
 		],
-		"name": "transferEther",
+		"name": "transferDoofs",
 		"outputs": [],
 		"stateMutability": "payable",
 		"type": "function"
@@ -65,7 +67,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "accountExists",
+		"name": "doofExists",
 		"outputs": [
 			{
 				"internalType": "bool",
